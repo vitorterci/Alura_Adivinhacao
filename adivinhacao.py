@@ -32,7 +32,7 @@ def jogar():
         if(chute < 1 or chute > 100):
             print("Você deve digitar um número entre 1 e 100!")
             continue
-
+            
         acertou = chute == numero_secreto
         maior   = chute > numero_secreto
         menor   = chute < numero_secreto
